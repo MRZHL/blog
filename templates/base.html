@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World</title>
+</head>
+<body>
+<h1>祝化林</h1>
+{%  block mainbody %}
+<p>original</p>
+{% endblock %}
+</body>
+</html>
+
+
+{#名为mainbody的block标签是可以被继承者们替换掉的部分。#}
+{#所有的 {% block %} 标签告诉模板引擎，子模板可以重载这些部分。#}
