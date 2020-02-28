@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6fe1294-01f7-4a6b-a0a8-9129c9254e72" name="Default Changelist" comment="" />
+    <list default="true" id="d6fe1294-01f7-4a6b-a0a8-9129c9254e72" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/blog/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +43,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WKktmoCvbpb88s16GC2MUqpa1Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +55,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -114,7 +125,7 @@
       <workItem from="1582709900688" duration="36000" />
       <workItem from="1582710031168" duration="7960000" />
       <workItem from="1582781247294" duration="1376000" />
-      <workItem from="1582788376729" duration="20845000" />
+      <workItem from="1582788376729" duration="21887000" />
     </task>
     <servers />
   </component>
@@ -134,31 +145,31 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="227" y="82" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1280.800@0.0.1280.800" timestamp="1582814933592" />
-    <state width="1238" height="315" key="GridCell.Tab.0.bottom" timestamp="1582875539698">
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom" timestamp="1582876192246">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state width="1238" height="297" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1582859460004" />
-    <state width="1238" height="315" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1582875539698" />
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1582876192246" />
     <state width="1238" height="168" key="GridCell.Tab.0.bottom/0.23.1280.724@0.23.1280.724" timestamp="1582860894950" />
-    <state width="1238" height="315" key="GridCell.Tab.0.center" timestamp="1582875539697">
+    <state width="1238" height="302" key="GridCell.Tab.0.center" timestamp="1582876192245">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state width="1238" height="372" key="GridCell.Tab.0.center/0.0.1280.746@0.0.1280.746" timestamp="1582780733565" />
     <state width="1238" height="297" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1582859460001" />
-    <state width="1238" height="315" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1582875539697" />
+    <state width="1238" height="302" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1582876192245" />
     <state width="1238" height="168" key="GridCell.Tab.0.center/0.23.1280.724@0.23.1280.724" timestamp="1582860894949" />
-    <state width="1238" height="315" key="GridCell.Tab.0.left" timestamp="1582875539696">
+    <state width="1238" height="302" key="GridCell.Tab.0.left" timestamp="1582876192244">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state width="1238" height="372" key="GridCell.Tab.0.left/0.0.1280.746@0.0.1280.746" timestamp="1582780733561" />
     <state width="1238" height="297" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1582859460000" />
-    <state width="1238" height="315" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1582875539696" />
+    <state width="1238" height="302" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1582876192244" />
     <state width="1238" height="168" key="GridCell.Tab.0.left/0.23.1280.724@0.23.1280.724" timestamp="1582860894948" />
-    <state width="1238" height="315" key="GridCell.Tab.0.right" timestamp="1582875539697">
+    <state width="1238" height="302" key="GridCell.Tab.0.right" timestamp="1582876192245">
       <screen x="0" y="23" width="1280" height="723" />
     </state>
     <state width="1238" height="297" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1582859460003" />
-    <state width="1238" height="315" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1582875539697" />
+    <state width="1238" height="302" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1582876192245" />
     <state width="1238" height="168" key="GridCell.Tab.0.right/0.23.1280.724@0.23.1280.724" timestamp="1582860894950" />
     <state width="1238" height="150" key="GridCell.Tab.1.bottom" timestamp="1582874249793">
       <screen x="0" y="23" width="1280" height="723" />
