@@ -2,6 +2,8 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
 from django.urls import reverse
+import markdown
+from django.utils.html import strip_tags
 
 
 # Create your models here.
@@ -72,6 +74,11 @@ class Post(models.Model):
     def save(self, force_insert=False, force_update=False, using=None,
              update_fields=None):
         self.modified_time = timezone.now()
+        md = markdown.Markdown(extensions=[
+            'markdown.extensions.extra',
+            'markdown.extensions.codehilite',
+        ])
+        self.excerpt = strip_tags(md.convert(self.body))[:200]
         super().save()
 
         # 自定义 get_absolute_url 方法
