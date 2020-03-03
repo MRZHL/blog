@@ -28,5 +28,6 @@ urlpatterns = [
     # path('',view.hello,name="he")
 
     path('admin/', admin.site.urls),
-    path('',include('TestModel.urls',namespace='TestModel')),
+    path('', include('TestModel.urls', namespace='TestModel')),
+    path('', include('comments.urls'))
 ]

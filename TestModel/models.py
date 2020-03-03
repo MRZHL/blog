@@ -86,7 +86,11 @@ class Post(models.Model):
     def get_absolute_url(self):
         return reverse('TestModel:detail', kwargs={'pk': self.pk})
 
+    # Meta 内部类, 定义表名
     class Meta:
         verbose_name = '文章'
         #verbose_name_plural 多篇文章同时时用负数的形式
         verbose_name_plural = verbose_name
+        # 直接在这里进行排序, 就不用在外面的时候一直筛排序了
+        # 首先按照创建时间 逆序排序, 如果时间相同,就按照title 进行排序
+        ordering = ['-create_time','title']
